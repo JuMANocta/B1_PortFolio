@@ -47,7 +47,7 @@
     </section>
     <!-- SKILLS SECTION -->
     <section class="skills" id="skills">
-        <h2 class="skill-header">Mes Top Skills</h2>
+        <h2 class="skills-header">Mes Top Skills</h2>
         <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
                 <img
@@ -95,7 +95,7 @@
     <section class="projects" id="projects">
         <h2 class="projects-title">Mes Projects</h2>
         <div class="projects-container">
-            <div class="project-container project_card">
+            <div class="project-container project-card">
                 <img
                     src="/assets/images/erproject.png"
                     alt="1er project"
@@ -108,7 +108,7 @@
                 </p>
                 <a href="#" target="_blank" class="project-link">Go voir</a>
             </div>
-            <div class="project-container project_card">
+            <div class="project-container project-card">
                 <img
                     src="/assets/images/erproject.png"
                     alt="2eme project"
@@ -121,7 +121,7 @@
                 </p>
                 <a href="#" target="_blank" class="project-link">Go voir</a>
             </div>
-            <div class="project-container project_card">
+            <div class="project-container project-card">
                 <img
                     src="/assets/images/erproject.png"
                     alt="3eme project"
@@ -137,6 +137,55 @@
         </div>
     </section>
     <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2>Contactez moi</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xbjqvala" method="POST">
+                    <div class="form-control">
+                        <label for="name">Nom</label>
+                        <input 
+                            type="text"
+                            id="name"
+                            name="sender-name"
+                            placeholder="Entrez votre Nom"
+                            class="input-field"
+                            required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input 
+                            type="email"
+                            id="email"
+                            name="sender-email"
+                            placeholder="Entrez votre Email"
+                            class="input-field"
+                            required
+                        />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea
+                            id="message"
+                            cols="60"
+                            rows="10"
+                            placeholder="Entrez votre message"
+                            name="message"
+                            class="input-field"
+                            required>
+                        </textarea>
+                    </div>
+                    <input 
+                        type="submit"
+                        value="Submit"
+                        id="submit-btn"
+                        class="submit-btn"
+                    />
+                </form>
+            </div>
+        </div>
+    </section>
     <!-- SOCIAL ACOUNTS -->
     <!-- SCROLL TO TOP -->
     <!-- FOOTER -->
