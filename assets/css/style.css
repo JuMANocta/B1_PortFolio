@@ -94,7 +94,7 @@ nav ul li{
     align-items: center;
     justify-content: center;
     gap: 25px;
-    max-width: 70%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -132,6 +132,7 @@ nav ul li{
 .more-about p{
     line-height: var(--line-height);
     padding: 4px;
+    text-align: center;
 }
 
 .skills{
@@ -150,8 +151,8 @@ nav ul li{
 }
 
 .icon{
-    width: 118px;
-    height: 118px;
+    width: 200px;
+    height: 200px;
 }
 
 .icon-card{
@@ -168,7 +169,9 @@ nav ul li{
 
 .project-pic{
     width: 65%;
-    height: 60%;
+    height: 65%;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 .projects-container{
@@ -311,12 +314,14 @@ footer{
         position: fixed;
         background-color: var(--bg-color);
         flex-direction: column;
-        top:  86px;
+        top:  65px;
         left: 10%;
         width: 80%;
         text-align: center;
         transform: translateX(120%);
         transition: transform 0.5s ease-in;
+        border-radius: 5px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     }
 
     nav ul li{
@@ -335,6 +340,7 @@ footer{
         margin-top: 5px;
         flex-direction: column;
         gap: 5px;
+        max-width: 80%;
     }
 
     .hero img{
@@ -345,5 +351,35 @@ footer{
     .bio{
         margin-top:10px;
         width:100%;
+    }
+
+    .more-about{
+        margin-top: 20px;
+        padding: 10px 35px;
+    }
+
+    .more-about h2{
+        text-align: center;
+    }
+
+    .more-about p{
+        text-align: justify;
+    }
+
+    .icon{
+        width:118px;
+        height: 118px;
+    }
+
+    .projects-container{
+        flex-direction: column;
+    }
+
+    .project-container{
+        width: 80%;
+    }
+
+    .contact-form-container{
+        max-width:80%;
     }
 }
