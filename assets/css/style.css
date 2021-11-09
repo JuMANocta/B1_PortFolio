@@ -104,7 +104,7 @@ nav ul li{
 }
 
 .bio{
-    width: 250px;
+    width: 80%;
     padding: 6.5px;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -275,12 +275,12 @@ nav ul li{
     flex-direction: column;
     position: fixed;
     right: 1px;
-    bottom: 50px;
+    bottom: 50%;
 }
 
 .socicon{
-    width: 20px;
-    height: 20px;
+    width: 33px;
+    height: 33px;
 }
 
 footer{
@@ -288,4 +288,16 @@ footer{
     padding: 12px;
     text-align: center;
     margin: 20px 0 0;
+}
+
+.scroll-up{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.up-arrow{
+    width: 33px;
+    height: 33px;
 }
